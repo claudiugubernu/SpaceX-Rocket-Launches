@@ -1,0 +1,17 @@
+.filter-bar {
+    display: flex;
+    justify-content: flex-end;
+    
+    @include tablet {
+        margin-top: rem(50);
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        
+        &:first-child {
+            margin-right: rem(9);
+        }
+    }
+}

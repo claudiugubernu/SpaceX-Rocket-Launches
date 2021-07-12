@@ -1,0 +1,49 @@
+.launches-wrapper {
+    margin-top: rem(13);
+
+    .hero-image {
+        margin: 0 auto;
+    }
+
+    .launch-items {
+        margin-top: rem(40);
+        
+        @include tablet {
+            margin-top: 0;
+            max-height: rem(700);
+            overflow-y: scroll;
+            padding: rem(20);
+        }
+
+        .launch-item {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: rem(12) rem(16) rem(16) rem(32);
+            border-radius: rem(10);
+            box-shadow: 0 rem(2) rem(5) rgba(0, 0, 0, 0.25);
+            margin-bottom: rem(8);
+    
+            .item-name {
+                display: flex;
+                align-items: baseline;
+    
+                h1 {
+                    margin-right: rem(10);
+                    font-size: rem(36);
+
+                    @include tablet {
+                        margin-right: rem(76);
+                    }
+                    
+                }
+            }
+    
+            p {
+                margin-bottom: 0;
+            }
+        }
+
+    }
+}

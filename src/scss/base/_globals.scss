@@ -1,0 +1,46 @@
+body {
+    font-family: 'BrandonGrotesque-Regular', sans-serif;
+    font-size: rem(16);
+    background-color: $white;
+}
+
+h1 {
+    font-size: rem(40);
+    text-transform: capitalize;
+    color: $theme-grey;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: rem(32);
+    text-transform: capitalize;
+    color: $theme-grey;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: rem(24);
+    text-transform: capitalize;
+    color: $theme-grey;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: rem(20);
+    text-transform: uppercase;
+    color: $theme-grey;
+    font-weight: 400;
+}
+
+p {
+    font-size: rem(16);
+    color: $theme-grey;
+    font-weight: 400;
+}
+
+.app-body { 
+    @include tablet {
+        padding-left: rem(40) !important;
+        padding-right: rem(80) !important;
+    }
+}

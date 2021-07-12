@@ -1,0 +1,42 @@
+header {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: rem(30);
+        padding-right: 0;
+        padding-bottom: rem(30);
+        padding-left: rem(40);
+
+        .logo-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            
+            @include small-phone {
+                margin: 0;
+            }
+
+            .logo {
+                width: rem(178);
+                align-self: flex-start;
+            }
+        }
+
+        .reload-btn {
+            display: flex;
+            align-items: center;
+            border-bottom-left-radius: rem(21.5);
+            border-top-left-radius: rem(21.5);
+            border-bottom-right-radius: rem(21.5);
+            border-top-right-radius: rem(21.5);
+            margin: rem(30) auto;
+
+            @include small-phone {
+                border-bottom-right-radius: 0;
+                border-top-right-radius: 0;
+                margin: 0;
+            }
+        }
+    }
+}
