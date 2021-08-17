@@ -6,8 +6,8 @@ This WebApp was created to keep track of all of the SpaceX Rokets that are being
 Motivation
 This came up as a challange. It's the first time i am using React and i thought using it in a fun little project like this would make a lot of sense.
 
-Screenshots
-http://tiny.cc/pn6auz
+Screenshots:
+
 
 Built with
 React JS, SCSS
