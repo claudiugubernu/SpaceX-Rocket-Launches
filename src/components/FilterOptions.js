@@ -4,13 +4,11 @@ import {Container} from "react-bootstrap";
 
 function FilterOptions(launchList) {
     function filterBy() {
-        console.log(launchList);
         launchList = [].concat(launchList).sort((a, b) => a.launch_year > b.launch_year ? 1 : -1);
-        console.log(launchList);
     }
     
     function sortBy() {
-        console.log(launchList);
+        
         launchList = [].concat(launchList).sort((a,b) => b.launch_date_local - a.launch_date_local);
         //launchList = [launchList].sort((a,b) => a.launch_date_local > b.launch_date_local ? 1 : -1);
         console.log(launchList);
