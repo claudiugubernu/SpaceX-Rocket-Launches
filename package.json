@@ -1,6 +1,7 @@
 {
   "name": "spacex-project",
   "version": "0.1.0",
+  "homepage": "https://claudiugubernu.github.io/gh-pages",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
